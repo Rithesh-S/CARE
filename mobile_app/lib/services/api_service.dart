@@ -12,7 +12,7 @@ class ApiService {
   factory ApiService() => _instance;
   ApiService._internal();
 
-  static String _customBaseUrl = 'http://10.88.96.88:5000';
+  static String _customBaseUrl = 'https://care-backend-gc1x.onrender.com';
 
   static String get baseUrl => _customBaseUrl;
 

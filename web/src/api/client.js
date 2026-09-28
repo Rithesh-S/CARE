@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-export const API_BASE_URL = 'http://10.88.96.88:5000';
+export const API_BASE_URL = 'https://care-backend-gc1x.onrender.com';
 
 const client = axios.create({
   baseURL: API_BASE_URL,
